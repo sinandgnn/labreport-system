@@ -34,13 +34,12 @@ export function LoginForm() {
         }
     });
 
-    let timeoutId: NodeJS.Timeout;
 
     const handleLogin = async (values: typeof form.values) => {
         setGeneralError('');
         setVisible(true);
 
-        timeoutId = setTimeout(() => {
+        const timeoutId = setTimeout(() => {
             notifications.show({
                 message: (
                     <div
