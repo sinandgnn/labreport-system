@@ -8,7 +8,8 @@
         "confirm": "Confirm",
         "save": "Save",
         "cancel": "Cancel",
-        "internalServerError": "A problem occurred while connecting to the server. Please try again."
+        "internalServerError": "A problem occurred while connecting to the server. Please try again.",
+        "apiError": "If you are experiencing issues connecting to the application, please visit the static site at <a href=\"https://static.sinandgn.com\">static.sinandgn.com</a>. You can report the issue to <b>sinandgn00@gmail.com</b>. Thank you."
     },
     "home": {
         "home": "Home",

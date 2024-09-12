@@ -34,15 +34,35 @@ export function LoginForm() {
         }
     });
 
+    let timeoutId: NodeJS.Timeout;
+
     const handleLogin = async (values: typeof form.values) => {
         setGeneralError('');
         setVisible(true);
+
+        timeoutId = setTimeout(() => {
+            notifications.show({
+                message: (
+                    <div
+                        dangerouslySetInnerHTML={{
+                            __html: t("common.apiError"),
+                        }}
+                    />
+                ),
+                color: 'red',
+                position: 'bottom-left',
+                autoClose: 15000,
+            });
+        }, 2000);
+
         try {
             const response = await login({
                 email: values.email,
                 password: values.password,
             })
 
+            notifications.clean();
+            clearTimeout(timeoutId);
             dispatch(loginSuccess(response.data))
             navigate("/")
 
@@ -59,6 +79,7 @@ export function LoginForm() {
                 } else {
                     setGeneralError(error.response.data.message);
                 }
+                clearTimeout(timeoutId);
             } else {
                 setGeneralError(t("common.genericError"));
             }

@@ -8,7 +8,8 @@
         "confirm": "Onayla",
         "save": "Kaydet",
         "cancel": "İptal",
-        "internalServerError": "Sunucuya bağlanırken bir sorun meydana geldi. Lütfen tekrar deneyin."
+        "internalServerError": "Sunucuya bağlanırken bir sorun meydana geldi. Lütfen tekrar deneyin.",
+        "apiError": "Eğer uygulamaya bağlanırken sorun yaşıyorsanız, lütfen <a href=\"https://static.sinandgn.com\">static.sinandgn.com</a> sayfasında statik siteyi ziyaret edin. <b>sinandgn00@gmail.com</b> adresine hatayı bildirebilirsiniz. Teşekkürler."
     },
     "home": {
         "home": "Ana Sayfa",
