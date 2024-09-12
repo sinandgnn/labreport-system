@@ -5,8 +5,8 @@ export default defineConfig({
     plugins: [react()],
     server: {
         proxy: {
-            '/api': 'https://labreport-backend.onrender.com',
-            '/reports_img': 'https://labreport-backend.onrender.com'
+            '/api': 'http://localhost:8080',
+            '/reports_img': 'http://localhost:8080'
         }
     }
 })
