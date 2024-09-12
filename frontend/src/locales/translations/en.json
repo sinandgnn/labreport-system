@@ -1,0 +1,83 @@
+{
+    "common": {
+        "yes": "Yes",
+        "no": "No",
+        "error": "Error",
+        "genericError": "Something went wrong",
+        "success": "Success",
+        "confirm": "Confirm",
+        "save": "Save",
+        "cancel": "Cancel",
+        "internalServerError": "A problem occurred while connecting to the server. Please try again."
+    },
+    "home": {
+        "home": "Home",
+        "reports": "Reports",
+        "lastReports": "Last Added Reports",
+        "welcome": "Welcome",
+        "allReports": "All Reports"
+    },
+    "auth": {
+        "login": "Login",
+        "logout": "Logout",
+        "email": "Email",
+        "password": "Password",
+        "name": "Full Name",
+        "loginSuccess": "Login successful. Redirecting...",
+        "logoutSuccess": "Logout successful. Redirecting...",
+        "logoutConfirm": "Do you want to log out?",
+        "welcomeMessage": "Welcome to LabReport. Easily create, edit, and manage your lab reports."
+    },
+    "reports": {
+        "report": "Report",
+        "reports": "Reports",
+        "view": "View Details",
+        "detail": "Details",
+        "reportDetail": "Report Details",
+        "goPage": "Go to Report Page",
+        "edit": "Edit",
+        "editText": "Edit Diagnosis of Report {{id}}",
+        "editSuccess": "Report edited successfully.",
+        "delete": "Delete",
+        "deleteConfirm": "Delete Confirm",
+        "deleteConfirmText": "Are you sure you want to delete this report?",
+        "deleted": "Report {{id}} was deleted successfully.",
+        "number": "Number",
+        "patient": "Patient",
+        "patientName": "Patient Full Name",
+        "patientId": "Patient ID Number (T.C.) ",
+        "diagnosisTitle": "Diagnosis Title",
+        "diagnosisDetails": "Diagnosis Details",
+        "image": "Report Image",
+        "upload": "Upload Image",
+        "reportDate": "Report Date",
+        "addReport": "Add Report",
+        "addReportSuccess": "Report created successfully!",
+        "date": "Date",
+        "actions": "Actions",
+        "search": "Search by report number, tecnician or patient...",
+        "sort": "Sort by",
+        "dateNew": "Date: Newest to Oldest",
+        "dateOld": "Date: Oldest to Newest",
+        "numberDesc": "Report Number: Descending",
+        "numberAsc": "Report Number: Ascending",
+        "noReport": "There are no reports to show.",
+        "noImage": "The report image could not be found.",
+        "dateFormat": "MM-DD-YYYY"
+    },
+    "technicians": {
+        "technician": "Technician",
+        "technicians": "Technicians",
+        "technicianId": "Hospital ID Number",
+        "admin": "Admin",
+        "adminDescription": "Check this box to grant the technician admin access.",
+        "search": "Search technician...",
+        "addTechnician": "Add Technician",
+        "noTechnician": "No technicians to show.",
+        "success": "Technician created successfully!"
+    },
+    "theme": {
+        "darkTheme": "Dark Theme",
+        "lightTheme": "Light Theme"
+    }
+}

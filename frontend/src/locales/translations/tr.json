@@ -1,0 +1,83 @@
+{
+    "common": {
+        "yes": "Evet",
+        "no": "Hayır",
+        "error": "Hata",
+        "genericError": "Bir şeyler yanlış gitti",
+        "success": "Başarılı",
+        "confirm": "Onayla",
+        "save": "Kaydet",
+        "cancel": "İptal",
+        "internalServerError": "Sunucuya bağlanırken bir sorun meydana geldi. Lütfen tekrar deneyin."
+    },
+    "home": {
+        "home": "Ana Sayfa",
+        "reports": "Raporlar",
+        "lastReports": "Son Eklenen Raporlar",
+        "welcome": "Hoş Geldin",
+        "allReports": "Tüm Raporlar"
+    },
+    "auth": {
+        "login": "Giriş Yap",
+        "logout": "Çıkış Yap",
+        "email": "E-posta",
+        "password": "Şifre",
+        "name": "Ad Soyad",
+        "loginSuccess": "Giriş başarılı. Yönlendiriliyor...",
+        "logoutSuccess": "Çıkış başarılı. Yönlendiriliyor...",
+        "logoutConfirm": "Çıkış yapmak istediğinize emin misiniz?",
+        "welcomeMessage": "LabReport'a hoş geldiniz. Raporlarınızı kolayca oluşturun, düzenleyin ve yönetin."
+    },
+    "reports": {
+        "report": "Rapor",
+        "reports": "Raporlar",
+        "detail": "Detayları",
+        "view": "Detayları Görüntüle",
+        "reportDetail": "Rapor Detayları",
+        "goPage": "Rapor Sayfasına Git",
+        "edit": "Düzenle",
+        "editText": "{{id}} Numaralı Raporun Tanısını Düzenle",
+        "editSuccess": "Rapor başarıyla düzenlendi.",
+        "delete": "Sil",
+        "deleteConfirm": "Silme Onayı",
+        "deleteConfirmText": "Bu raporu silmek istediğinize emin misiniz?",
+        "deleted": "Rapor {{id}} başarıyla silindi.",
+        "number": "Numara",
+        "patient": "Hasta",
+        "patientName": "Hasta Adı Soyadı",
+        "patientId": "Hasta T.C. Kimlik Numarası",
+        "diagnosisTitle": "Tanı Başlığı",
+        "diagnosisDetails": "Tanı Detayları",
+        "image": "Rapor Görseli",
+        "upload": "Görsel Seç",
+        "reportDate": "Rapor Tarihi",
+        "addReport": "Rapor Ekle",
+        "addReportSuccess": "Rapor başarıyla oluşturuldu!",
+        "date": "Tarih",
+        "actions": "Eylemler",
+        "search": "Rapor numarası, teknisyen veya hastaya göre ara...",
+        "sort": "Sırala",
+        "dateNew": "Tarih: Önce En Yeni",
+        "dateOld": "Tarih: Önce En Eski",
+        "numberDesc": "Rapor Numarası: Önce En Büyük",
+        "numberAsc": "Rapor Numarası: Önce En Küçük",
+        "noReport": "Gösterilecek rapor yok.",
+        "noImage": "Raporun görseli bulunamadı.",
+        "dateFormat": "GG-AA-YYYY"
+    },
+    "technicians": {
+        "technician": "Teknisyen",
+        "technicians": "Teknisyenler",
+        "technicianId": "Hastane Kimlik Numarası",
+        "admin": "Yönetici",
+        "adminDescription": "Teknisyenin yönetici erişimine sahip olması için bu kutuyu işaretleyin.",
+        "search": "Teknisyen ara...",
+        "addTechnician": "Teknisyen Ekle",
+        "noTechnician": "Gösterilecek teknisyen yok.",
+        "success": "Teknisyen başarıyla oluşturuldu!"
+    },
+    "theme": {
+        "darkTheme": "Karanlık Tema",
+        "lightTheme": "Aydınlık Tema"
+    }
+}
