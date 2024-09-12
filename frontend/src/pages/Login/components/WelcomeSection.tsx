@@ -7,7 +7,7 @@ export function WelcomeSection() {
     return (
         <Paper shadow="sm" withBorder radius="md" w={{base: '100%', md: '70%'}}>
             <Stack p="xl" justify="center">
-                <Image src="/logo.svg" />
+                <Image p="xs" src="/logo.png" />
                 <Text m={'xs'}>{t('auth.welcomeMessage')}</Text>
             </Stack>
         </Paper>

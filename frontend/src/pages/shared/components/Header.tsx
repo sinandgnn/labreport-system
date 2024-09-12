@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({ opened, toggle }) => {
             <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
             <Group justify="space-between" style={{ flex: 1 }}>
                 <Link to="/">
-                    <Image h="54" src="/logo.svg" style={{ cursor: 'pointer' }} />
+                    <Image h="48"src="/logo.png" style={{ cursor: 'pointer' }} />
                 </Link>
 
                 <Flex
