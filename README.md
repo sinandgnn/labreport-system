@@ -7,13 +7,19 @@
 LabReport System is a web application that allows you to easily create, edit, and manage laboratory reports. This project is built using React with Mantine for the frontend and Spring Boot for the backend.
 ## Features
 
-- **User Authentication**: Login with email and password.
+- **Technician Authentication**: Login with email and password.
 - **Report Management**: Create, edit, and delete reports with detailed information including file number, patient’s full name, patient ID (T.C.), diagnosis title, diagnosis details, report date, and a photo.
 - **Search and Sort Reports**: Search reports by patient name, ID, and technician name, and sort them for convenience.
 - **Technician Management**: Add technicians in the system. Each report must be assigned to a single technician, though a technician can create multiple reports.
 - **Multilingual Support**: Supports multiple languages (Turkish and English).
 - **Error Handling**: Form validation and global error messages.
 - **Light/Dark Mode**: Switch between dark and light themes.
+
+## Deployment
+
+Access the live version of the website at [labreport.sinandgn.com](http://labreport.sinandgn.com).
+
+If the backend is down or the frontend is unreachable, you can still view the static version of the site at [static.sinandgn.com](http://static.sinandgn.com), which works without a backend connection.
 
 ## Tech Stack
 
@@ -23,17 +29,18 @@ LabReport System is a web application that allows you to easily create, edit, an
 **Server:**
 - Java, Spring Boot, PostgreSQL
 
-## Deployment
-
-Access the live version of the website at [labreport.sinandgn.com](http://labreport.sinandgn.com).
-
-If the backend is down or the frontend is unreachable, you can still view the static version of the site at [static.sinandgn.com](http://static.sinandgn.com), which works without a backend connection.
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
 `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`
+
+
+Sample .env file:
+   
+    DB_URL=jdbc:postgresql://localhost:5432/labreportdb
+    DB_USERNAME=postgres
+    DB_PASSWORD=123456
 
 
 ## Run Locally
@@ -70,14 +77,16 @@ Start the server
 
 ### Backend
 
+Open another terminal and navigate to the labreport-system folder
+
 ```bash
-  cd ../backend
+  cd backend
 ```
 
 Install dependencies
 
 ```bash
-  mvn install
+  mvn install -DskipTests
 ```
 
 Start the server
@@ -86,6 +95,15 @@ Start the server
   mvn spring-boot:run
 ```
 
+---
+
+A default admin technician is created when the application starts:
+
+Email: admin@mail.com
+
+Password: admin
+
+---
 
 ## API Reference
 
