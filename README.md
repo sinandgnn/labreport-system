@@ -17,9 +17,7 @@ LabReport System is a web application that allows you to easily create, edit, an
 
 ## Deployment
 
-Access the live version of the website at [labreport.sinandgn.com](http://labreport.sinandgn.com).
-
-If the backend is down or the frontend is unreachable, you can still view the static version of the site at [static.sinandgn.com](http://static.sinandgn.com), which works without a backend connection.
+Access the static version of the website at [static.sinandgn.com](http://static.sinandgn.com), which works without a backend connection.
 
 ## Tech Stack
 
